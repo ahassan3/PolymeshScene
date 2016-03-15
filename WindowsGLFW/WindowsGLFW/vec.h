@@ -132,8 +132,8 @@ struct vec2 {
 //
 
 inline
-GLfloat dot( const vec2& u, const vec2& v ) {
-    return u.x * v.x + u.y * v.y;
+GLfloat dot(const vec4& u, const vec4& v) {
+	return u.x*v.x + u.y*v.y + u.z*v.z + u.w*v.w;
 }
 
 inline

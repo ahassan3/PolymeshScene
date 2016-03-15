@@ -48,6 +48,12 @@
     <ClInclude Include="Polymesh.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PolymeshScene.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymeshInfo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GLFWBase.cpp">
@@ -69,6 +75,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Polymesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymeshScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -71,6 +71,8 @@
     <ClInclude Include="GLFWTrackball.hpp" />
     <ClInclude Include="mat.h" />
     <ClInclude Include="Polymesh.hpp" />
+    <ClInclude Include="PolymeshInfo.hpp" />
+    <ClInclude Include="PolymeshScene.hpp" />
     <ClInclude Include="ShaderProgram.h" />
     <ClInclude Include="Utils.h" />
     <ClInclude Include="vec.h" />
@@ -81,6 +83,7 @@
     <ClCompile Include="GLFWTrackball.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Polymesh.cpp" />
+    <ClCompile Include="PolymeshScene.cpp" />
     <ClCompile Include="ShaderProgram.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
